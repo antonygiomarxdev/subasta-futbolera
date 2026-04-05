@@ -265,7 +265,7 @@ function App() {
           <div style={{ maxHeight: "300px", overflowY: "auto" }}>
             {availablePlayers.filter((p) => !homeSelection.some((s) => s.playerId === p.id)).map((p) => (
               <div key={p.id} style={{ display: "flex", alignItems: "center", gap: "8px", padding: "6px", borderBottom: "1px solid #333" }}>
-                <span style={{ flex: 1, cursor: "pointer" }} onClick={() => addPlayer("home", p.id, p.variants[0])}>
+                <span style={{ flex: 1, cursor: "pointer" }} onClick={() => addPlayer("home", p.id, p.variants[0] || "Prime")}>
                   {p.name} ({p.position})
                 </span>
                 <select
@@ -278,7 +278,7 @@ function App() {
                   ))}
                 </select>
                 <button 
-                  onClick={() => addPlayer("home", p.id, p.variants[0])}
+                  onClick={() => addPlayer("home", p.id, p.variants[0] || "Prime")}
                   style={{ background: "#3b82f6", color: "#fff", padding: "4px 8px", fontSize: "12px" }}
                 >
                   +
@@ -324,7 +324,7 @@ function App() {
           <div style={{ maxHeight: "300px", overflowY: "auto" }}>
             {availablePlayers.filter((p) => !awaySelection.some((s) => s.playerId === p.id)).map((p) => (
               <div key={p.id} style={{ display: "flex", alignItems: "center", gap: "8px", padding: "6px", borderBottom: "1px solid #333" }}>
-                <span style={{ flex: 1, cursor: "pointer" }} onClick={() => addPlayer("away", p.id, p.variants[0])}>
+                <span style={{ flex: 1, cursor: "pointer" }} onClick={() => addPlayer("away", p.id, p.variants[0] || "Prime")}>
                   {p.name} ({p.position})
                 </span>
                 <select
@@ -337,7 +337,7 @@ function App() {
                   ))}
                 </select>
                 <button 
-                  onClick={() => addPlayer("away", p.id, p.variants[0])}
+                  onClick={() => addPlayer("away", p.id, p.variants[0] || "Prime")}
                   style={{ background: "#3b82f6", color: "#fff", padding: "4px 8px", fontSize: "12px" }}
                 >
                   +
