@@ -1,0 +1,329 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Lionel Messi",
+      "position": "RW",
+      "nationality": "Argentina",
+      "age": 36,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 85, "shooting": 94, "passing": 92, "dribbling": 95, "defending": 35, "physical": 65 } },
+        { "name": "Actual", "stats": { "pace": 80, "shooting": 88, "passing": 90, "dribbling": 91, "defending": 30, "physical": 60 } },
+        { "name": "Acabado", "stats": { "pace": 65, "shooting": 75, "passing": 82, "dribbling": 80, "defending": 25, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cristiano Ronaldo",
+      "position": "ST",
+      "nationality": "Portugal",
+      "age": 39,
+      "traits": [],
+      "variants": [
+        { "name": "Manchester United 2008", "stats": { "pace": 92, "shooting": 90, "passing": 82, "dribbling": 88, "defending": 26, "physical": 82 } },
+        { "name": "Real Madrid Prime", "stats": { "pace": 89, "shooting": 93, "passing": 84, "dribbling": 88, "defending": 28, "physical": 79 } },
+        { "name": "Juventus", "stats": { "pace": 78, "shooting": 87, "passing": 78, "dribbling": 80, "defending": 25, "physical": 75 } },
+        { "name": "Al Nassr", "stats": { "pace": 60, "shooting": 72, "passing": 65, "dribbling": 68, "defending": 20, "physical": 70 } }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zinedine Zidane",
+      "position": "CAM",
+      "nationality": "France",
+      "age": 52,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 82, "shooting": 90, "passing": 93, "dribbling": 94, "defending": 45, "physical": 76 } },
+        { "name": "Actual", "stats": { "pace": 70, "shooting": 78, "passing": 85, "dribbling": 86, "defending": 40, "physical": 68 } },
+        { "name": "Acabado", "stats": { "pace": 55, "shooting": 65, "passing": 75, "dribbling": 76, "defending": 35, "physical": 60 } }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ronaldinho Gaúcho",
+      "position": "CAM",
+      "nationality": "Brazil",
+      "age": 48,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 88, "shooting": 85, "passing": 92, "dribbling": 96, "defending": 32, "physical": 74 } },
+        { "name": "Preso", "stats": { "pace": 38, "shooting": 85, "passing": 92, "dribbling": 126, "defending": 32, "physical": 74 } }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ronaldo Nazário",
+      "position": "ST",
+      "nationality": "Brazil",
+      "age": 48,
+      "traits": ["Fenómeno (Gordo)"],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 92, "shooting": 95, "passing": 80, "dribbling": 90, "defending": 25, "physical": 85 } },
+        { "name": "Actual", "stats": { "pace": 78, "shooting": 82, "passing": 68, "dribbling": 78, "defending": 22, "physical": 78 } },
+        { "name": "Acabado", "stats": { "pace": 55, "shooting": 60, "passing": 50, "dribbling": 60, "defending": 18, "physical": 65 } }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Paolo Maldini",
+      "position": "CB",
+      "nationality": "Italy",
+      "age": 65,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 78, "shooting": 62, "passing": 78, "dribbling": 75, "defending": 95, "physical": 85 } },
+        { "name": "Actual", "stats": { "pace": 65, "shooting": 50, "passing": 68, "dribbling": 62, "defending": 88, "physical": 78 } },
+        { "name": "Acabado", "stats": { "pace": 45, "shooting": 35, "passing": 55, "dribbling": 48, "defending": 75, "physical": 65 } }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Franz Beckenbauer",
+      "position": "CB",
+      "nationality": "Germany",
+      "age": 78,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 80, "shooting": 75, "passing": 85, "dribbling": 82, "defending": 94, "physical": 82 } },
+        { "name": "Actual", "stats": { "pace": 62, "shooting": 58, "passing": 75, "dribbling": 68, "defending": 85, "physical": 72 } },
+        { "name": "Acabado", "stats": { "pace": 40, "shooting": 42, "passing": 60, "dribbling": 52, "defending": 72, "physical": 58 } }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Johan Cruyff",
+      "position": "CAM",
+      "nationality": "Netherlands",
+      "age": 76,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 84, "shooting": 86, "passing": 94, "dribbling": 95, "defending": 38, "physical": 68 } },
+        { "name": "Actual", "stats": { "pace": 70, "shooting": 72, "passing": 86, "dribbling": 88, "defending": 32, "physical": 58 } },
+        { "name": "Acabado", "stats": { "pace": 50, "shooting": 55, "passing": 75, "dribbling": 76, "defending": 25, "physical": 45 } }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Diego Maradona",
+      "position": "CAM",
+      "nationality": "Argentina",
+      "age": 60,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 90, "shooting": 88, "passing": 92, "dribbling": 97, "defending": 40, "physical": 78 } },
+        { "name": "Actual", "stats": { "pace": 78, "shooting": 75, "passing": 85, "dribbling": 90, "defending": 35, "physical": 68 } },
+        { "name": "Acabado", "stats": { "pace": 55, "shooting": 58, "passing": 72, "dribbling": 78, "defending": 28, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Alfredo Di Stefano",
+      "position": "ST",
+      "nationality": "Argentina",
+      "age": 89,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 86, "shooting": 90, "passing": 88, "dribbling": 88, "defending": 42, "physical": 80 } },
+        { "name": "Actual", "stats": { "pace": 70, "shooting": 78, "passing": 78, "dribbling": 76, "defending": 36, "physical": 70 } },
+        { "name": "Acabado", "stats": { "pace": 48, "shooting": 58, "passing": 62, "dribbling": 60, "defending": 28, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Thierry Henry",
+      "position": "ST",
+      "nationality": "France",
+      "age": 46,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 92, "shooting": 88, "passing": 82, "dribbling": 86, "defending": 28, "physical": 78 } },
+        { "name": "Actual", "stats": { "pace": 80, "shooting": 76, "passing": 70, "dribbling": 74, "defending": 24, "physical": 68 } },
+        { "name": "Acabado", "stats": { "pace": 60, "shooting": 58, "passing": 55, "dribbling": 58, "defending": 18, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Steven Gerrard",
+      "position": "CM",
+      "nationality": "England",
+      "age": 43,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 82, "shooting": 88, "passing": 86, "dribbling": 84, "defending": 78, "physical": 85 } },
+        { "name": "Actual", "stats": { "pace": 70, "shooting": 76, "passing": 76, "dribbling": 72, "defending": 70, "physical": 78 } },
+        { "name": "Acabado", "stats": { "pace": 52, "shooting": 60, "passing": 62, "dribbling": 58, "defending": 58, "physical": 65 } }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Xavi Hernández",
+      "position": "CM",
+      "nationality": "Spain",
+      "age": 44,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 72, "shooting": 75, "passing": 96, "dribbling": 88, "defending": 72, "physical": 68 } },
+        { "name": "Actual", "stats": { "pace": 60, "shooting": 62, "passing": 90, "dribbling": 80, "defending": 65, "physical": 60 } },
+        { "name": "Acabado", "stats": { "pace": 42, "shooting": 48, "passing": 78, "dribbling": 68, "defending": 52, "physical": 48 } }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Andres Iniesta",
+      "position": "CM",
+      "nationality": "Spain",
+      "age": 40,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 80, "shooting": 76, "passing": 94, "dribbling": 94, "defending": 58, "physical": 68 } },
+        { "name": "Actual", "stats": { "pace": 68, "shooting": 64, "passing": 88, "dribbling": 88, "defending": 50, "physical": 60 } },
+        { "name": "Acabado", "stats": { "pace": 50, "shooting": 48, "passing": 75, "dribbling": 76, "defending": 40, "physical": 48 } }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Alessandro Del Piero",
+      "position": "ST",
+      "nationality": "Italy",
+      "age": 49,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 85, "shooting": 90, "passing": 86, "dribbling": 88, "defending": 32, "physical": 76 } },
+        { "name": "Actual", "stats": { "pace": 72, "shooting": 80, "passing": 78, "dribbling": 78, "defending": 28, "physical": 68 } },
+        { "name": "Acabado", "stats": { "pace": 52, "shooting": 65, "passing": 62, "dribbling": 62, "defending": 22, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Roberto Carlos",
+      "position": "LB",
+      "nationality": "Brazil",
+      "age": 51,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 93, "shooting": 85, "passing": 82, "dribbling": 84, "defending": 88, "physical": 82 } },
+        { "name": "Actual", "stats": { "pace": 80, "shooting": 72, "passing": 72, "dribbling": 72, "defending": 78, "physical": 72 } },
+        { "name": "Acabado", "stats": { "pace": 58, "shooting": 55, "passing": 58, "dribbling": 58, "defending": 62, "physical": 58 } }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Rivaldo",
+      "position": "CAM",
+      "nationality": "Brazil",
+      "age": 52,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 86, "shooting": 92, "passing": 88, "dribbling": 90, "defending": 38, "physical": 78 } },
+        { "name": "Actual", "stats": { "pace": 72, "shooting": 82, "passing": 78, "dribbling": 80, "defending": 32, "physical": 68 } },
+        { "name": "Acabado", "stats": { "pace": 52, "shooting": 65, "passing": 62, "dribbling": 65, "defending": 25, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "George Best",
+      "position": "RW",
+      "nationality": "Northern Ireland",
+      "age": 59,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 92, "shooting": 86, "passing": 85, "dribbling": 95, "defending": 30, "physical": 70 } },
+        { "name": "Actual", "stats": { "pace": 78, "shooting": 72, "passing": 72, "dribbling": 86, "defending": 25, "physical": 60 } },
+        { "name": "Acabado", "stats": { "pace": 55, "shooting": 52, "passing": 55, "dribbling": 72, "defending": 18, "physical": 45 } }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Michel Platini",
+      "position": "CAM",
+      "nationality": "France",
+      "age": 69,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 78, "shooting": 92, "passing": 95, "dribbling": 90, "defending": 48, "physical": 72 } },
+        { "name": "Actual", "stats": { "pace": 62, "shooting": 82, "passing": 88, "dribbling": 78, "defending": 40, "physical": 62 } },
+        { "name": "Acabado", "stats": { "pace": 42, "shooting": 65, "passing": 75, "dribbling": 62, "defending": 32, "physical": 48 } }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Garrincha",
+      "position": "RW",
+      "nationality": "Brazil",
+      "age": 80,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 95, "shooting": 85, "passing": 82, "dribbling": 96, "defending": 28, "physical": 72 } },
+        { "name": "Actual", "stats": { "pace": 82, "shooting": 72, "passing": 70, "dribbling": 88, "defending": 24, "physical": 62 } },
+        { "name": "Acabado", "stats": { "pace": 60, "shooting": 52, "passing": 55, "dribbling": 75, "defending": 18, "physical": 48 } }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Ferenc Puskas",
+      "position": "ST",
+      "nationality": "Hungary",
+      "age": 89,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 82, "shooting": 94, "passing": 88, "dribbling": 86, "defending": 35, "physical": 78 } },
+        { "name": "Actual", "stats": { "pace": 65, "shooting": 85, "passing": 78, "dribbling": 74, "defending": 30, "physical": 68 } },
+        { "name": "Acabado", "stats": { "pace": 42, "shooting": 68, "passing": 62, "dribbling": 58, "defending": 25, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Iker Casillas",
+      "position": "GK",
+      "nationality": "Spain",
+      "age": 42,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 78, "shooting": 40, "passing": 75, "dribbling": 45, "defending": 95, "physical": 80 } },
+        { "name": "Actual", "stats": { "pace": 65, "shooting": 32, "passing": 65, "dribbling": 38, "defending": 85, "physical": 70 } },
+        { "name": "Acabado", "stats": { "pace": 48, "shooting": 25, "passing": 50, "dribbling": 28, "defending": 68, "physical": 55 } }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "nationality": "Germany",
+      "age": 38,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 82, "shooting": 35, "passing": 80, "dribbling": 48, "defending": 92, "physical": 82 } },
+        { "name": "Actual", "stats": { "pace": 70, "shooting": 28, "passing": 72, "dribbling": 40, "defending": 85, "physical": 75 } },
+        { "name": "Acabado", "stats": { "pace": 52, "shooting": 20, "passing": 55, "dribbling": 30, "defending": 68, "physical": 60 } }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Gerd Muller",
+      "position": "ST",
+      "nationality": "Germany",
+      "age": 78,
+      "traits": [],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 80, "shooting": 96, "passing": 78, "dribbling": 82, "defending": 25, "physical": 76 } },
+        { "name": "Actual", "stats": { "pace": 65, "shooting": 86, "passing": 65, "dribbling": 68, "defending": 22, "physical": 65 } },
+        { "name": "Acabado", "stats": { "pace": 42, "shooting": 68, "passing": 48, "dribbling": 52, "defending": 18, "physical": 50 } }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Pepe",
+      "position": "CB",
+      "nationality": "Portugal",
+      "age": 41,
+      "traits": ["Expulsado por defecto"],
+      "variants": [
+        { "name": "Prime", "stats": { "pace": 78, "shooting": 55, "passing": 72, "dribbling": 70, "defending": 88, "physical": 85 } },
+        { "name": "Actual", "stats": { "pace": 68, "shooting": 48, "passing": 65, "dribbling": 62, "defending": 80, "physical": 78 } },
+        { "name": "Acabado", "stats": { "pace": 50, "shooting": 35, "passing": 50, "dribbling": 45, "defending": 65, "physical": 65 } }
+      ]
+    }
+  ]
+}
